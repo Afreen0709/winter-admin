@@ -1,0 +1,252 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-control{
+  color: #000;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+}
+.head-control{
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+}
+.p-text{
+  color: #000;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 300;
+  margin-bottom: 35px !important;
+}
+
+.text-input{
+  color: #000;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  height: 45px;
+  padding: 10px 10px 10px 10px;
+  background-color: #FFF !important;
+}
+
+.text-input-address{
+  color: #000;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  height: 38px;
+  /* padding: 10px 10px 10px 10px !important; */
+  border-radius: 7px !important;
+  background-color: #FFFFFF  !important;
+}
+.custom-password-input .ant-input {
+  background-color: transparent;
+}
+.card-body {
+  background-color: #F5F5F5;
+  
+}
+.p-header {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 35px !important;
+}
+.p-textbody {
+  margin-bottom: 5px !important;
+}
+.bg-cl-tr {
+  background-color: rgba(255, 0, 0, 0.0); /* Red color with 50% transparency */
+  color: #000 !important;
+  border-color: rgba(255, 0, 0, 0.0);
+}
+.bg-input{
+  color: #000;
+  font-family: Poppins;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  height: 38px !important;
+  background-color: #F5F5F5 !important;
+}
+
+.ft-16 {
+  font-size: 14px;
+  font-weight: 500 !important;
+
+}
+/* Define styles for the active tab */
+.p-text.active {
+  font-weight: bold; /* You can adjust the styling as needed */
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+/* Optional: Add hover effect for better user experience */
+.p-text:hover {
+  cursor: pointer;
+  padding: 0px 0px 0px 0px;
+  border-radius: 4px;
+  color: #221A42;
+  font-size: 15px;
+  font-weight: bold; /* You can adjust the styling as needed */
+  transition: background-color 0.3s ease-in-out; /* Add a smooth transition effect */
+  /* Add any additional styles for the hover effect */
+}
+
+.red-text{
+  color: red !important;
+  font-weight: 600 !important;
+}
+
+.card-image {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+  margin: 5px 10px 0px 0px;
+}
+
+.card-address {
+  width: "75%";
+  height: 70px;
+  margin-top: 5px;
+  margin: 5px 10px 0px 0px;
+}
+
+
+  .rectangle {
+  background-color: #f2e9d4 !important;
+  border-radius: 10px;
+  height: 30px;
+  width: 100px;
+  padding: 5px;
+  }
+  .p-texts {
+    color: #000;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+  }
+  .product-image {
+    height: 50%;
+    width: 30%;
+    
+  }
+  .product-item {
+    /* background-color: red !important; */
+    display: flex !important;
+    flex-direction: row !important;    
+
+  }
+  .product-amount {
+    width: 18%;
+
+  }
+
+   /* Cart List */
+   .cart-list {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5 !important;
+  
+  }
+  
+  .cart-list h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+  }
+  
+  .cart-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .total-price {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .background-bt {
+    background-color: #F5F5F5 !important;
+  }
+
+  .custom-owl-theme .owl-stage {
+    transition: transform 0.5s ease; /* Adjust the duration and easing function as needed */
+  }
+
+  /* YourStyles.css */
+.custom-left-arrow,
+.custom-right-arrow {
+  background-color: #ffffff; /* Set your desired background color */
+  border: 1px solid #dddddd; /* Set your desired border style */
+  border-radius: 5px; /* Set your desired border radius */
+  padding: 5px; /* Set your desired padding */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-left-arrow:hover,
+.custom-right-arrow:hover {
+  background-color: #e0e0e0; /* Set your desired background color on hover */
+}
+
+
+.amount-label {
+  font-size: xx-large !important;
+  font-weight: 500 !important;
+}
+
+.broder-color{
+  border-color: #221A42 !important;
+}
+
+.background-color{
+  background-color: #221A42 !important;
+}
+
+.button {
+  font-family: 'Poppins', sans-serif;
+  background-color: #221A42;
+  color: #FFE5E5;
+  padding: 10px 32px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  box-shadow: none;
+  border: none;
+}
+
+.ant-form-item-required span {
+  display: none;
+}
+
+.ant-form-item-required:after {
+  display: none;
+}
