@@ -429,11 +429,11 @@ const Home = () => {
                 </div>
               </div>
               {/*start 2 item*/}
-              <div className="row my-5">
+              <div className="row my-5 ">
                 <div className="col-md-12">
                   <p className="fs-3 fw-semibold"> Sales</p>
                   <div className="row">
-                    <div className="col-md-6 bg-white rounded pt-4  ">
+                    <div className="col-md-6 bg-white rounded pt-4 mb-3 ">
                       {barChartData && barChartData.labels && (
                         <Bar data={barChartData} options={options} />
                       )}

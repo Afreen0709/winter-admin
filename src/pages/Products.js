@@ -280,7 +280,7 @@ const Products = () => {
       dataIndex: "images",
       key: "images",
       render: (images) =>
-        images !== null && (
+        images !== null && images !== undefined && (
           <img
             src={`${images[0]}`}
             alt="Product Image"

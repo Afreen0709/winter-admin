@@ -1,5 +1,5 @@
 export default{
-   baseUrl:"http://192.168.88.84:5000/",
+//    baseUrl:"http://192.168.88.84:5000/",
     //  baseUrl:"http://192.168.0.108:5000/",
 
     // baseUrl:"http://192.168.0.120:5000/",

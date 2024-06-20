@@ -341,9 +341,9 @@ const dataReducer = (state = initialState, action) => {
     case EDIT_PRODUCT_ID_REQUEST:
       return {
         ...state,
-        ProductIdloading: false,
-        ProductIderror: action.payload, // Update error with the error message
-        GetProductId: null,
+        // ProductIdloading: false,
+        // ProductIderror: action.payload, // Update error with the error message
+        // GetProductId: null,
       };
     case EDIT_PRODUCT_ID_SUCCESS:
       return {
